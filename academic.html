@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Suraj Verma</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+
+  
+  #aa:hover{
+  		background-color: rgba(187, 204, 201,.85);
+
+  };
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+</head>
+
+<body>
+
+   <br>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html"><img src="img/home.png" style="width:60%"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="academic.html">Academic</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+     
+        <nav class="navbar navbar-default ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Study Material</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Semester 1<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              
+              <li><a href="#sectionm1">MTH 101</a></li>
+              <li><a href="#sectione1">ESC 101</a></li>
+              <li><a href="#sectionp1">PHY 103</a></li>
+              <li><a href="#sectionc1">CHM 101</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Semester 2<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+
+              <li><a href="#sectionm2">MTH 102</a></li>
+              <li><a href="#sectionp2">PHY 102<a></li>
+              <li><a href="#sectiont2">TA 101</a></li>
+              <li><a href="#sectionl2">LIF 101</a></li>
+              <li><a href="#sectionc2">CHM 102</a></li>
+              <li><a href="#sectionp2_">PHY 101</a></li>
+            </ul>
+          </li>
+         </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+	
+		<div id="sectionm1" class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">MTH
+                        <strong>101</strong>
+                    </h2>
+                    <hr>
+                    <br>
+                    <div class="list-group">
+ 						<p><a id="aa" href="https://drive.google.com/drive/folders/0B4zTY3S_K6O4VElTS1hLVWVlQmc?usp=sharing" target="_blank" class="list-group-item">Lectures</a></p>
+  						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4dTJMT3hwNVR2eFU" target="_blank" class="list-group-item" >Practice Problems</a></p>
+  						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4aEJQdVFncG9aRU0" target="_blank" class="list-group-item">Assignment Solutions</a></p>
+						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4b0dPUGItbDg2djA" target="_blank" class="list-group-item">Tests</a></p>
+					</div>
+					</div>
+					
+            </div>
+        </div>
+
+        <div id="sectione1" class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">ESC
+                        <strong>101</strong>
+                    </h2>
+                    <hr>
+                    <br>
+                    <div class="list-group">
+ 						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4MVNHQmhjWS04REk" target="_blank" class="list-group-item">Books</a></p>
+  						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4Y1IxeE1wZ3VIUms" target="_blank" class="list-group-item" >Lectures</a></p>
+  						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4V0tqODNYTXAwMDA" target="_blank" class="list-group-item">Tests</a></p>
+						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4V21OaHNoQ2hmSGc" target="_blank" class="list-group-item">Tutorials</a></p>
+						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4b3FDMVo0ZVZPVzQ" target="_blank" class="list-group-item">Syllabus</a></p>
+					</div>
+					</div>
+					
+            </div>
+        </div>
+
+        <div id="sectionp1" class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">PHY
+                        <strong>103</strong>
+                    </h2>
+                    <hr>
+                    <br>
+                    <div class="list-group">
+                    	<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4cFJVZEc0R1VDdVU" target="_blank" class="list-group-item" >Lectures</a></p>
+  						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4MmtMSlliYk5mU0U" target="_blank" class="list-group-item">Tests</a></p>
+						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4LXFhb1BHNGstYkU" target="_blank" class="list-group-item">Misc</a></p>
+						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4QS05UGhkV3BBcWM" target="_blank" class="list-group-item">Solution Assignment</a></p>
+					</div>
+					</div>
+					
+            </div>
+        </div>
+
+        <div id="sectionc1" class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">CHM
+                        <strong>101</strong>
+                    </h2>
+                    <hr>
+                    <br>
+                    <div class="list-group">
+ 						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4Z2NkQUtJU2wtTjA" target="_blank" class="list-group-item">Practical Files</a></p>
+  						</div>
+					</div>
+					
+            </div>
+        </div>
+
+        <div id="sectionm2" class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">MTH
+                        <strong>102</strong>
+                    </h2>
+                    <hr>
+                    <br>
+                    <div class="list-group">
+                    	<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4dFJqYnhaelByR28" target="_blank" class="list-group-item" >Book</a></p>
+  						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4OFkzd0xBbE82Q2s" target="_blank" class="list-group-item">Tests</a></p>
+						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4ck1wbmR0Y3AyaFU" target="_blank" class="list-group-item">Problem Solutions</a></p>
+					</div>
+					</div>
+					
+            </div>
+        </div>
+
+        <div id="sectionp2" class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">PHY
+                        <strong>102</strong>
+                    </h2>
+                    <hr>
+                    <br>
+                    <div class="list-group">
+                    	<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4QjhxUlBXMFNfOVE" target="_blank" class="list-group-item" >Books</a></p>
+  						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4XzFwZmxQX011OXc" target="_blank" class="list-group-item">Book Assignment Solution</a></p>
+						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4SGRqS0FFQ0J1NGc" target="_blank" class="list-group-item">Assignment Solution</a></p>
+					</div>
+					</div>
+					
+            </div>
+        </div>
+
+        <div id="sectiont2" class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">TA
+                        <strong>101</strong>
+                    </h2>
+                    <hr>
+                    <br>
+                    <div class="list-group">
+                    	<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4a0lIamxyNmREUEE" target="_blank" class="list-group-item" >Lectures</a></p>
+  						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4c2RLU3g5QzFJX3M" target="_blank" class="list-group-item">Solution</a></p>
+						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4WENxTE9FTXppN0k" target="_blank" class="list-group-item">Tests</a></p>
+						<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4YmNXZWdGM0lqamM" target="_blank" class="list-group-item">Misc</a></p>
+
+
+					</div>
+					</div>
+					
+            </div>
+
+            <div id="sectionl2" class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">LIF
+                        <strong>101</strong>
+                    </h2>
+                    <hr>
+                    <br>
+                    <div class="list-group">
+                    	<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4eHctMUZ0N1R4dlE" target="_blank" class="list-group-item" >Lectures</a></p>
+  					</div>
+					</div>
+					
+            </div>
+
+            <div id="sectionc2" class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">CHM
+                        <strong>102</strong>
+                    </h2>
+                    <hr>
+                    <br>
+                    <div class="list-group">
+                    	<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4N1BnSzdZTXlJcEU" target="_blank" class="list-group-item" >Lectures InOrganic & Organic</a></p>
+                    	<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4Z0ZoSFFKUGRHZUU" target="_blank" class="list-group-item" >Lectures Quantum</a></p>
+                    	<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4MERRSVhUQ2lMLVU" target="_blank" class="list-group-item" >Problems</a></p>
+                    	<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4eEgtbVZGUEdiNlk" target="_blank" class="list-group-item" >Test</a></p>
+                    	<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4TFJ5R2JVbFpnU1k" target="_blank" class="list-group-item" >Misc</a></p>
+  					</div>
+					</div>
+					
+            </div>
+
+            <div id="sectionp2_" class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">PHY
+                        <strong>101</strong>
+                    </h2>
+                    <hr>
+                    <br>
+                    <div class="list-group">
+                    	<p><a id="aa" href="https://drive.google.com/open?id=0B4zTY3S_K6O4UlAyWXlNSVl0M0E" target="_blank" class="list-group-item" >Templates</a></p>
+  					</div>
+					</div>
+					
+            </div>
+        </div>
+
+
+
+        
+
+
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <br>
+                    <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://github.com/imF0X" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/105542907644402379519" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/1F0X1" class="btn btn-default btn-lg"><i class="fa fa-facebook-square fa-fw"></i> <span class="network-name">FaceBook</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.quora.com/profile/Suraj-Verma-80" class="btn btn-default btn-lg"><i class="fa fa-quora fa-fw"></i> <span class="network-name">Quora</span></a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
