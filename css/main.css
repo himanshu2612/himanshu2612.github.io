@@ -50,7 +50,7 @@ p {
   .feat-img{
     /* Landscape phones and down */
     @media (max-width: 480px) {
-      width: 100%;
+      width: 50%;
       img {
         padding-bottom: 2%;
         display: block;
@@ -62,7 +62,7 @@ p {
     float: left;
     margin-right: 2%;
     img {
-      max-width: 100%;
+      max-width: 50%;
       height: auto;
     }
   }
