@@ -37,8 +37,8 @@ p {
       text-align: center;
     }
     text-align: center;
-    background: @accent;
-    color: 6133FF ;
+    background:6133FF ;
+    color: FFFFFF ;
     padding: .5em .75em;
     display: inline-block;
     float: right;
