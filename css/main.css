@@ -30,7 +30,7 @@ p {
     line-height: 1.6;
     color: #000;
 }
-/*
+
 .more-link {
     @media (max-width: 480px) {
         width: 100%;
@@ -46,7 +46,7 @@ p {
       background: darken(@accent, 10%);
     }
   }
-  */
+
 hr{
     max-width: 400px;
     border-color: #999999;
