@@ -47,7 +47,25 @@ p {
       background: darken(6133FF, 20%);
     }
   }
-
+  .feat-img{
+    /* Landscape phones and down */
+    @media (max-width: 480px) {
+      width: 100%;
+      img {
+        padding-bottom: 2%;
+        display: block;
+        margin: auto auto;
+        text-align: center;
+      }
+    }
+    width: 24%;
+    float: left;
+    margin-right: 2%;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
 hr{
     max-width: 400px;
     border-color: #999999;
